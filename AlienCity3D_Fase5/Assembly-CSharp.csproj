@@ -51,15 +51,63 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GemMine\BlueMarble\Scripts\rotateClouds.cs" />
+     <Compile Include="Assets\GemMine\BlueMarble\Scripts\rotatePlanet.cs" />
+     <Compile Include="Assets\GemMine\BlueMarble\Scripts\timeLight.cs" />
+     <Compile Include="Assets\GemMine\BlueMarble\Scripts\touchInput.cs" />
+     <Compile Include="Assets\Magical Rock\Scripts\Example\SwitchStateOnClick.cs" />
+     <Compile Include="Assets\Magical Rock\Scripts\IMRock.cs" />
+     <Compile Include="Assets\Magical Rock\Scripts\MRock.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\CameraTarget.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectController.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectDemo.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectShaderPropertyStr.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\RenderEffect.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
+     <Compile Include="Assets\PyroParticles\Demo\DemoScript.cs" />
+     <Compile Include="Assets\PyroParticles\Demo\DemoScriptEditor.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireLightScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
      <Compile Include="Assets\Scripts\CarregaMenu.cs" />
+     <Compile Include="Assets\Scripts\Chaves.cs" />
      <Compile Include="Assets\Scripts\colisorObjetos.cs" />
      <Compile Include="Assets\Scripts\ConfigSom.cs" />
+     <Compile Include="Assets\Scripts\Estalactites.cs" />
      <Compile Include="Assets\Scripts\InstanciaPedras.cs" />
+     <Compile Include="Assets\Scripts\ItemChave.cs" />
      <Compile Include="Assets\Scripts\MenuControle.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerMorre.cs" />
+     <Compile Include="Assets\Scripts\Porta.cs" />
      <Compile Include="Assets\Scripts\RotacionaPedra.cs" />
      <Compile Include="Assets\Scripts\TocaSom.cs" />
+     <None Include="Assets\Nature_Shield\Shaders\TreeCreator\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Nature_Shield\Shaders\TreeCreator\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\Nature_Shield\readme.txt" />
+     <None Include="Assets\Nature_Shield\Shaders\TreeCreator\TreeCreatorLeavesFast.shader" />
+     <None Include="Assets\Nature_Shield\Shaders\TreeCreator\TreeCreatorBark.shader" />
+     <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
+     <None Include="Assets\GemMine\BlueMarble\Shader\EarthShader.shader" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
      <None Include="Assets\Models\Key\readME keys.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+     <None Include="Assets\Nature_Shield\Shaders\TreeCreator\TreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\PyroParticles\Readme.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+     <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
+     <None Include="Assets\Nature_Shield\Shaders\TreeCreator\TreeCreatorLeaves.shader" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+     <None Include="Assets\Nature_Shield\Shaders\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Additive.shader" />
+     <None Include="Assets\Magical Rock\Notes.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
+     <None Include="Assets\Nature_Shield\Shaders\TreeCreator\TreeCreatorLeavesFastOptimized.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -147,6 +195,10 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Bruce Lee/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{5B268ABC-70EF-FAD3-B9BB-D5B5DC270610}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
